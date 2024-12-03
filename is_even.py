@@ -1,9 +1,10 @@
 def is_even(g):
     if g % 2 == 0:
-        print('Число четное')
+        return 'Число четное'
     else:
-        print('Число нечетное')
+        return 'Число нечетное'
 
 print('Введите число:')
-g= int(input())
-is_even(g)
+g = int(input())  
+result = is_even(g)
+print(result)
